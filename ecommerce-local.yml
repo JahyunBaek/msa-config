@@ -1,7 +1,5 @@
-encrypt:
-  key: secret-test
 jwt:
   secret:
-    key: {cipher}511b15076d397e52eca1542faf9e1374571074f8e2ba161d0643395945315c41500acb2109cc72c4a8dc46510ff0c26b1d712878cefb6df86c1054272b7009f22aaf086e66faa780b4d46e290861a80aa874c352d7892bd2581e8f7f22de2765
+    key: Yq3t6w9z$C&F)J@NcRfUjWnZr4u7x!A%D*G-KaPdSgVkYp2s5v8y/B?E(H+MbQeT
   refresh-token-validity-in-seconds: 1800 # 30 분
-  access-token-validity-in-seconds: {cipher}382a3c17bb187bc6131272cf754a3f111ca0a359661128c2be6879dda3cfc539 # 5 분
+  access-token-validity-in-seconds: 30000 # 5 분
