@@ -5,4 +5,4 @@ jwt:
   access-token-validity-in-seconds: "{cipher}f1680613b67e265b742dc2eb283b1f1bdf3d766defa861824d314e20f530515c" # 10 분
   
 orders-service:
-  url: http://localhost:8000/orders-service/%s/orders
+  url: http://ORDERS-SERVICE/orders-service/%s/orders
