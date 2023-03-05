@@ -3,3 +3,6 @@ jwt:
     key: "{cipher}511b15076d397e52eca1542faf9e1374571074f8e2ba161d0643395945315c41500acb2109cc72c4a8dc46510ff0c26b1d712878cefb6df86c1054272b7009f22aaf086e66faa780b4d46e290861a80aa874c352d7892bd2581e8f7f22de2765"
   refresh-token-validity-in-seconds: 1800 # 30 분
   access-token-validity-in-seconds: "{cipher}f1680613b67e265b742dc2eb283b1f1bdf3d766defa861824d314e20f530515c" # 10 분
+  
+orders-service:
+  url: http:127.0.0.1:8000/orders-service/%s/orders
